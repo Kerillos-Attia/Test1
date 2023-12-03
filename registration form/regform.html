@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- links to stylesheets font, icons used -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="regform.css">
+    <title>Registration</title>
+</head>
+<body>
+    <!-- this is what controls the circle -->
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- here is where you add content like the form or list of games -->
+        
+        <div class="content">
+            <div class="box">
+            <form>
+                <h2>Registration</h2>
+                <strong id="fn">First Name</strong><br>
+                <input type="text" id="t1" required>
+                <strong id="ln">Last Name</strong><br>
+                <input type="text" id="t2" required>
+                <strong id="e">Email:</strong>
+                <input type="email" id="t3" required><br>
+                <strong id="pass">Password</strong>
+                <input type="password" minlength="6" required><br>
+                <p>Password must contain at least 6 characters including lowercase characters, uppercase characters, and numbers
+                </p>
+                <div class="radio">
+                    <h3>your Gender:</h3>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+                <strong id="age">Enter your Age:</strong>
+                <input type="number" min="1" max="120"><br>
+                <strong id="birthday">Your birthday</strong>
+                <input type="date" name="birthday">
+                <input type="submit" value="Create Account">
+            </form>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- nav list -->
+    <nav>
+        <ul>
+            <li><a href="../index.html" class="fa-solid fas fa-home">  Home</a></li>
+            <li><a href="../Games/games.html" class="fas fa-gamepad"> Games</a></li>
+            <li><a href="../Login Form/login.html" class="fas fa-male"> Login</a>  <a href="regform.html" class="fas fa-male"> Signup</a></li>
+        </ul>
+    </nav>
+    <!-- this is the link to the javascript code -->
+    <script src="../JS/script.js"></script>
+</body>
+</html>

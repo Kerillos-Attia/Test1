@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+    /*background-image tag here*/
+}
+
+.box::before {
+    width: 600px;
+    height: 500px;
+    border: 1px solid gray;
+    background: url(../Imgaes/formbg.jpg);
+    background-size: 600px 500px;
+    opacity: 0.9;
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+
+}
+
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+p {
+    position: absolute;
+    top: 237px;
+    left: 50px;
+    font-weight: 150px;
+    font-size: smaller;
+    color: mistyrose;
+
+}
+
+
+
+input[type="text"],
+[type="password"],
+[type="email"] {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 18px;
+    border-bottom: 2px solid#000000;
+    background: none;
+    padding: 5px;
+    color: #fff;
+
+}
+
+input[type="text"][ id=t1] {
+    top: 65px;
+    left: 150px;
+
+}
+
+[type="password"] {
+    top: 215px;
+    left: 150px;
+
+}
+
+input[type="text"][ id=t2] {
+    top: 115px;
+    left: 150px;
+
+}
+
+input[type="email"][ id=t3] {
+    top: 165px;
+    left: 150px;
+
+}
+
+input[type="number"] {
+    position: absolute;
+    top: 320px;
+    left: 250px;
+
+}
+
+strong[id="fn"] {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    color: rgb(227, 230, 210);
+    cursor: pointer;
+
+}
+
+strong[id="ln"] {
+    position: absolute;
+    top: 115px;
+    left: 50px;
+    color: rgb(227, 230, 210);
+    cursor: pointer;
+}
+
+strong[id="e"] {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+    color: rgb(227, 230, 210);
+    cursor: pointer;
+
+}
+
+strong[id="pass"] {
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    color: rgb(227, 230, 210);
+    cursor: pointer;
+    font: 30px bold 200px;
+
+}
+
+
+strong[id="age"] {
+    position: absolute;
+    top: 295px;
+    left: 250px;
+    color: rgb(227, 230, 210);
+
+}
+
+.radio {
+    position: absolute;
+    top: 285px;
+    left: 50px;
+}
+
+h3 {
+    color: rgb(227, 230, 210);
+}
+
+label {
+    color: rgb(227, 230, 210);
+}
+
+
+strong[id="birthday"] {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    color: rgb(227, 230, 210);
+}
+
+input[type="date"] {
+    position: absolute;
+    top: 370px;
+    left: 250px;
+
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 410px;
+    left: 200px;
+    width: 200px;
+    height: 35px;
+    background: #000000;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color: #000000;
+
+}

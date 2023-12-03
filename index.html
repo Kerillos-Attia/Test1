@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- links to stylesheets font, icons used -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>GameGeek</title>
+</head>
+<body>
+    <!-- this is what controls the circle -->
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div id="start"></div>
+        <div class="portals">
+            <a href="#start"><img width="30px" src="Imgaes/portal.png" alt="">  Start</a>
+            <br>
+            <a href="#end"><img width="30px" src="Imgaes/portal.png" alt="">  End</a>
+        </div>
+        <div id="logo">
+            <h1>GameGeek</h1>
+        </div>
+        <!-- here is where you add content like the form or list of games -->
+        
+        <div class="content">
+            <table>
+                <tr >
+                    <td >
+                        <div class="head">
+                            <h1 lang="en">Need a new game, Want information about a game ?</h1><h2>                           We got you</h2><h2>Here at <b>GameGeek</b> We Have info about all kinds of games and daily news</h2>
+                            
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        <div id="social" class="head">
+                            <fieldset>
+                                <legend><h2>our social links</h2></legend>
+                                <a href=""> <img src="Imgaes/facebook.png"></a>
+                                <a href=""> <img src="Imgaes/instagram.jpg"></a>
+                                <a href=""> <img src="Imgaes/linkedin.png"></a>
+                                <a href=""> <img src="Imgaes/youtube.png"></a>
+                                
+                            </fieldset>
+                            <h2>if you want to leave us a comment</h2>
+                            <textarea name="comment" cols="30" rows="10">Enter your comment here</textarea>
+                        </div>
+                        
+                    
+                    </td>
+                        
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <div class="head">
+                            <h2>Make sure to make an account to keep up with latest news </h2>
+                            <h2>you can login or Signup by clicking on the three lines at the top left or click here to <a style="color:black;" href="Login Form/login.html">Login</a> Or <a style="color: black;" href="registration form/regform.html">Signup</a> </h2>
+                        </div>
+                
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div class="head">
+                            <h2>You can also find <a style="color:black;" href="Games/games.html">Games</a> tab which has all the games we offer information for </h2>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div class="info">
+                            <dl>
+                                <dt>
+                                    <h1>Daily News <hr></h1>
+                                </dt>
+                                <dd>
+                                    <h2>Skyrim Player Makes Character Look Like Kratos</h2>
+                                    <h3>A Skyrim player uses the game's character creator to make  an impressive recreation of Kratos from PlayStation's God of War franchise.</h3>
+                                </dd>
+                            </dl>
+                            <figure>
+                                <div>
+                                    <img src="Imgaes/gowskyrim.jpg" alt="God of war skyrim Character">
+                                </div>
+                            </figure>
+                            
+                        </div>
+                    
+                    </td>
+                </tr>
+                
+
+
+                <tr>
+                    <td colspan="3">
+                        <div id="end" class="info">
+                            <dl>
+                                <dt>
+                                    <h2>Elden Ring Fan Creates Amazing Mixed Media Painting of Malenia</h2>
+                                </dt>
+                                <dd>
+                                    <h3>An Elden Ring fan makes an incredible mixed media painting depicting one of the game's hardest bosses using materials
+                                    such as plastic wrap and paint.</h3>
+                                </dd>
+                            </dl>
+                            <figure>
+                                <div>
+                                    <img src="Imgaes/eldenring.jpg" alt="Eldenring">
+                                </div>
+                            </figure>
+                        
+                        </div>
+                    </td>
+                    
+                </tr>
+            </table>
+            
+            
+        </div>
+        
+    </div>
+    <!-- nav list -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="fa-solid fas fa-home">  Home</a></li>
+            <li><a href="Games/games.html" class="fas fa-gamepad"> Games</a></li>
+            <li><a href="Login Form/login.html" class="fas fa-male"> Login</a>  <a href="registration form/regform.html" class="fas fa-male"> Signup</a></li>
+        </ul>
+    </nav>
+    <!-- this is the link to the javascript code -->
+    <script src="JS/script.js"></script>
+</body>
+</html>

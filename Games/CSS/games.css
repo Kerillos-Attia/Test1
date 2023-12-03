@@ -1,0 +1,83 @@
+body {
+    overflow-x: visible;
+    overflow: visible;
+    
+}
+
+.gamelist {
+        background-color: #a80000;
+        border-radius: 25px;
+        padding: 20px;
+        margin: 2%;
+        
+}
+.gameslist li {
+    list-style: upper-roman;
+    list-style-position: inside;
+    color: #a80000;
+}
+
+
+.button {
+    
+   
+    width: 200px;
+    border: none;
+    outline: none;
+    color: #dfdfdf;
+    background-color:transparent;
+    border-radius: 15px;
+    
+
+}
+.trailer {
+    width: 90%;
+    margin: 2% auto;
+    
+}
+video {
+    width: 90%;
+}
+.button :hover {
+    cursor: pointer;
+    
+}
+.content {
+    gap: 5%;
+}
+.info {
+    margin: 2% auto;
+    margin-top: 3%;
+    padding: 2%;
+}
+.image {
+    width: 90%;
+    margin: 2% auto;
+    
+}
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+#gamelinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+#gamelinks li {
+    display: inline;
+    padding: 3px;
+}
+
+

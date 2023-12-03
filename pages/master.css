@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-color:#f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+                        /*   header design */
+
+
+header{padding: 10px ;width:100%;background-color: #000;display: block;}    
+.box{width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent);
+    background-position:center;
+    background-size:auto;
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+     display: flex;
+     width: 100%;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 5px 0;
+}
+.logo{
+      width: 100px;
+      cursor: pointer;
+      padding: 10px;
+    }    
+
+nav p{
+        color:#fff;
+        display:contents;
+        position:relative;
+        padding:10px;
+        font-size: large;
+    }
+nav ul{
+        flex: 1px;
+        text-align: right;
+        padding-right: 30px;
+        }
+nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 30px;
+        }
+nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        font-size: larger;
+        }
+/*  */
+.movie-detailes{
+    margin: 3% 20;
+
+}
+.left-box{
+    color: rgb(252, 240, 240);
+    margin: 15px 0;
+    padding: 20px;
+}
+.casting img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 5s;
+}
+/* button codes */
+.left-box a{
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #08aeb7;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+.movie-img{
+    height: 250px;
+    box-shadow: -4px 4px 5px 0 #000;
+    float:centre; 
+    transition: 5s;
+
+}
+.Movies h2{
+    color: #ffff;
+    margin: 15px 0;
+    padding: 20px;
+}
+.Movies img{
+    float: left;
+    width: 20%;
+    padding: 5px;
+    transition: 5s;
+}
+/* .col-md-4{
+    float: left;
+    width: 33.33%;
+    padding: 5px
+} */
+.container-Movies {
+    float:left;
+    width: 33.33%;
+    padding: 5px;
+    cursor: pointer;
+    transition: 5s;
+}

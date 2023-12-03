@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-color:#f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+                        /*   header design */
+
+
+header{padding: 10px ;width:100%;background-color: #000;display: block;}    
+.box{width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent);
+    background-position:center;
+    background-size:auto;
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+     display: flex;
+     width: 100%;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 5px 0;
+}
+.logo{
+      width: 100px;
+      cursor: pointer;
+      padding: 10px;
+    }    
+
+nav p{
+        color:#fff;
+        display:contents;
+        position:relative;
+        padding:10px;
+        font-size: large;
+    }
+nav ul{
+        flex: 1px;
+        text-align: right;
+        padding-right: 30px;
+        }
+nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 30px;
+        }
+nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        font-size: larger;
+        }
+                                                /* main page  (news) design */
+
+  .news{
+    padding: 40px 20px ;
+    padding-top: 100px;
+    border-radius: 20px;
+    margin: auto;
+    color: #fff;
+    text-align:center;
+  }
+  .section{
+    padding: 10%;
+    margin:15%;
+    font-size: large;
+    background-color: #1e1d1d;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .poster{
+    margin: auto;
+    border: #2f2f2f 5px;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+    flex: 50%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+
+
+                   /*   reviews design */
+  
+
+
+        .reviews{
+                padding: 40px 0;
+                background: #5a0902;
+                color: #fff ;
+                text-align: center;
+            }
+            .inner{
+                max-width: 1200px;
+                margin: auto;
+                overflow: hidden;
+                padding: 0 20px;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .col{
+                flex: 33.33%;
+                max-width: 33.33%;
+                box-sizing: border-box;
+                padding: 15px;
+            }
+            .review{
+                background: #161717;
+                padding: 30px;
+            }
+            .review img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+            .name{
+                font-size: 20px;
+                text-transform: uppercase;
+                margin: 20px 0;
+            }
+            
+            @media screen and (max-width:960px) {
+                .col{flex: 100%;
+                max-width: 80%;
+                }
+            }
+                      /*         review form design         */
+            form{
+                
+                background: #000;
+                padding: 10%;
+                margin:15%;
+                color: #fff ;
+                font-size: larger;
+                text-align: center;
+                align-items:center;
+                position: relative;
+                }
+            form fieldset{
+                background-color: #161717;
+                    text-align: left;
+                    padding: 20px;
+                    font-size: large;
+                }
+            form fieldset legend {
+                    text-align: center;
+                    font-size: larger;
+                    font-weight: bold;
+                }
+            form  fieldset input {
+                padding: 10px;
+                margin-bottom: 10px;
+                }
+            form input {
+                padding: 15px;
+                margin: 10px;
+                font-size: larger;
+                font-weight: bold;
+               }
+            form  fieldset select{
+                padding: 10px;
+                margin-bottom: 10px;
+                }
+            .gender{
+                padding: 10px;
+                margin-bottom: 10px;
+                }
+            .checkbox{
+                padding: 10px;
+                margin-bottom: 10px;
+                }
+            
